@@ -12,6 +12,7 @@ export
 	LinearGaussianSSM,
 	LinearGaussianCISSM,
 	NonlinearGaussianSSM,
+	UKFParameters,
 	FilteredState,
 	show,
 	process_matrix,
