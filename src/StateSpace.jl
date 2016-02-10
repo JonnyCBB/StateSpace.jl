@@ -13,6 +13,7 @@ export
 	LinearGaussianCISSM,
 	NonlinearGaussianSSM,
 	UKFParameters,
+	calcSigmaPoints,
 	FilteredState,
 	show,
 	process_matrix,
@@ -24,6 +25,8 @@ export
     innovate,
 	filter,
 	smooth,
+	smoothedTimeUpdate,
+	predictSmooth,
     estimateMissingObs,
 	loglikelihood,
 	simulate
